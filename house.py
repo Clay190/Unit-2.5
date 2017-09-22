@@ -14,7 +14,7 @@ blackOutline = LineStyle(2,black)
 
 brownTriangle = PolygonAsset([(250,0),(0,200),(500,200)],blackOutline,brown)
 pinkDoor = RectangleAsset(90,150,blackOutline,pink)
-blueWindow = RectangleAsset(50,80,blackOutline,blueLight)
+blueWindow = EllipseAsset(50,80,blackOutline,blueLight)
 wall = RectangleAsset(400,300,blackOutline,darkBrown)
 
 Sprite(wall, (50,200))
